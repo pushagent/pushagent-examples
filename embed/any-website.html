@@ -1,0 +1,19 @@
+<!--
+  Push Agent: add web push notifications to any HTTPS website.
+
+  1. Sign in at https://app.pushagent.net, add your website and open "Integration".
+  2. Paste the line below just before </body> on every page
+     (usually once, in your shared footer or layout template).
+     Replace SITE_ID with the ID shown on your Integration page,
+     or simply copy the ready-made line from there.
+  3. Download pushagent-sw.js from the same page and upload it to the ROOT
+     folder of your domain, so it opens at https://your-site.com/pushagent-sw.js
+  4. Click "Verify integration" in your dashboard.
+
+  WordPress or Joomla? Use the plugins instead, they do all of this for you:
+  https://github.com/pushagent/pushagent-wordpress
+  https://github.com/pushagent/pushagent-joomla
+
+  Full guide: https://pushagent.net/docs/add-push-notifications-to-any-website/
+-->
+<script src="https://app.pushagent.net/embed?id=SITE_ID" async></script>
